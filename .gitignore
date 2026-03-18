@@ -1,0 +1,22 @@
+# Virtual enviroment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
