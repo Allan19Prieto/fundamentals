@@ -7,17 +7,18 @@ bill = 0
 
 if size == "S":
     bill += 15
-if size == "M":
+elif size == "M":
     bill += 20
-if size == "L":
+elif size == "L":
     bill += 25
-if pepperoni == "Y":
-    bill += 30
-if pepperoni == "N":
-    bill += 40
-if extra_cheese == "Y":
-    bill += 50
-if extra_cheese == "N":
-    bill += 60
 
-print(f"Your final bill is ${bill}")
+if pepperoni == "Y":
+    if size == "S":
+        bill += 2
+    else:
+        bill += 3
+
+if extra_cheese == "Y":
+    bill += 1
+
+print(f"Your final bill is: ${bill}.")
