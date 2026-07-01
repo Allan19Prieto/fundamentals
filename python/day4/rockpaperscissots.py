@@ -33,3 +33,12 @@ print(game_images[user_choice])
 computer_choice = random.randint(0,2)
 print("Computer chose:")
 print(game_images[computer_choice])
+
+if user_choice == 2 and computer_choice == 0:
+    print("You lose")
+elif computer_choice > user_choice:
+    print("You lose")
+elif user_choice > computer_choice:
+    print("You win")
+
+
