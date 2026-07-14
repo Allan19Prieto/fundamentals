@@ -1,0 +1,26 @@
+WORD_LIST = [
+    "python",
+    "java",
+    "javascript",
+    "ruby",
+    "html",
+    "css"
+    "beekeeper",
+    "bayou",
+    "banjo",
+    "catastrophe",
+    "daiquiri",
+    "wiener",
+    "boggle",
+    "zombie",
+    "xylophone",
+    "monkey",
+    "liquor",
+    "gazebo",
+    "refrigerator",
+    "kiosk",
+    "computer",
+    "hangman",
+    "pneumonia",
+    "quarantine"
+]
