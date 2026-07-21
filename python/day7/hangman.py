@@ -6,6 +6,7 @@ from hangman_art import LOGO, HANGMANPICS
 Array_letters = ""
 guess = ""
 lives = 6
+picslives = 0
 
 
 print(LOGO)
@@ -29,11 +30,16 @@ def guess_letter():
 Array_letters = ""
 
 def check_guess():
+    global lives
+    global picslives
     if guess in chose_word:
         print("Right")
     else:
         print("Wrong")
+        print(HANGMANPICS[picslives])
         lives -= 1
+        picslives += 1
+        
 
 def update_array_letters():
     global Array_letters
